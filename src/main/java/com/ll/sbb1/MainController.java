@@ -9,6 +9,6 @@ public class MainController {
     @GetMapping("/sbb")
     @ResponseBody
     public String index(){
-        return "◠◡ ".repeat(1200);
+        return "◠◡ ";
     }
 }
