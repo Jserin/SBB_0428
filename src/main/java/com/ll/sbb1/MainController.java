@@ -11,4 +11,9 @@ public class MainController {
     public String index(){
         return "◠◡ ".repeat(1200);
     }
+
+    @GetMapping("/")
+    public String main(){
+        return "redirect:/question/list";
+    }
 }
